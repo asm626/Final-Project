@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("creation.png");
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.artists{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.artists .artists_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 30px;
+  line-height: 20px;
+  color: #120202;  
+  position: relative;
+}
+
+.artists .artists_member h3{
+  color: #5174db;
+  font-size: 26px;
+  margin-top: 50px;
+
+}
+
+.artists .artists_member p{
+  color: #000;
+  margin: 12px 0;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+
